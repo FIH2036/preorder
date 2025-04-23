@@ -1,12 +1,15 @@
-# React + Vite
+## 🛠 설치 및 실행 방법
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```bash
+# 1. 레포지토리 클론
+git clone https://github.com/FIH2036/preorder.git
+cd preorder
 
-Currently, two official plugins are available:
+# 2. Node.js 20 버전 설정 (nvm 사용 시)
+nvm use 20
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 3. 패키지 설치
+npm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 4. 개발 서버 실행
+npm run dev
